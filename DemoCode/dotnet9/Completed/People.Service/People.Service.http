@@ -1,0 +1,6 @@
+@People.Service_HostAddress = http://localhost:9874
+
+GET {{People.Service_HostAddress}}/people/
+Accept: application/json
+
+###

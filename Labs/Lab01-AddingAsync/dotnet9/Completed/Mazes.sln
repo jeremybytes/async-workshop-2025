@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MazeWeb", "MazeWeb\MazeWeb.csproj", "{4695730E-2E2A-49A6-96BA-10F370C6E4C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorithms", "Algorithms\Algorithms.csproj", "{BCF4C934-943D-403A-93A2-BCF7233EBD29}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MazeGeneration", "MazeGeneration\MazeGeneration.csproj", "{F2DC158E-4380-443B-B3D2-BC48CB48544C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MazeGrid", "MazeGrid\MazeGrid.csproj", "{0F0BB44D-72E7-4483-8FDE-9724BBF38B96}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4695730E-2E2A-49A6-96BA-10F370C6E4C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4695730E-2E2A-49A6-96BA-10F370C6E4C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4695730E-2E2A-49A6-96BA-10F370C6E4C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4695730E-2E2A-49A6-96BA-10F370C6E4C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCF4C934-943D-403A-93A2-BCF7233EBD29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCF4C934-943D-403A-93A2-BCF7233EBD29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCF4C934-943D-403A-93A2-BCF7233EBD29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCF4C934-943D-403A-93A2-BCF7233EBD29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2DC158E-4380-443B-B3D2-BC48CB48544C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2DC158E-4380-443B-B3D2-BC48CB48544C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2DC158E-4380-443B-B3D2-BC48CB48544C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2DC158E-4380-443B-B3D2-BC48CB48544C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F0BB44D-72E7-4483-8FDE-9724BBF38B96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F0BB44D-72E7-4483-8FDE-9724BBF38B96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F0BB44D-72E7-4483-8FDE-9724BBF38B96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F0BB44D-72E7-4483-8FDE-9724BBF38B96}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D2272735-2900-4E24-AD52-0C4445EFB022}
+	EndGlobalSection
+EndGlobal

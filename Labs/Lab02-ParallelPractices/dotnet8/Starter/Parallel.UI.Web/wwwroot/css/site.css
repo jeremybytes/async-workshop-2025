@@ -1,0 +1,98 @@
+/* START - Jeremy's section */
+
+section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    max-width: 900px;
+}
+
+    section > div {
+        border: solid 1px black;
+        padding: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        color: white;
+    }
+
+span {
+    display: block;
+    width: 100%;
+}
+
+.name {
+    font-size: 1.325em;
+    font-weight: bold;
+}
+
+.rating {
+    text-align: right;
+    font-size: 1em;
+}
+
+.year {
+    text-align: right;
+    font-size: 1em;
+}
+
+/*span:not(.name) {
+    text-align: right;
+}*/
+
+div[data="7"] {
+    background-color: maroon;
+}
+
+div[data="8"] {
+    background-color: darkgreen;
+}
+
+div[data="9"] {
+    background-color: darkslateblue;
+}
+
+div[data="0"] {
+    background-color: cadetblue;
+}
+
+div[data="1"] {
+    background-color: darkmagenta;
+}
+
+/* END - Jeremy's section */
+
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.form-floating > .form-control-plaintext::placeholder, .form-floating > .form-control::placeholder {
+  color: var(--bs-secondary-color);
+  text-align: end;
+}
+
+.form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
+  text-align: start;
+}
